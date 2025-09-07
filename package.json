@@ -1,11 +1,12 @@
 {
-  "name": "teltonika-protocol-parser",
+  "name": "@fleetelo/teltonika-protocol-parser",
   "version": "0.0.1",
   "description": "A lightweight parser for Teltonika AVL (Automatic Vehicle Location) data packets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [
     "teltonika",
     "teltonika-parser",
@@ -20,6 +21,11 @@
   "author": "Abdirahman",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.5.0"
+    "@types/node": "^24.3.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5"
+  },
+  "dependencies": {
+    "destruct-js": "^0.2.13"
   }
 }
